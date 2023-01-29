@@ -1,2 +1,2 @@
-# TibiaBOT2
+# TibiaBOT
 BOT para Tibia
