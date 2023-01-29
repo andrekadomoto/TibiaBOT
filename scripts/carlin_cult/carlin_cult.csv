@@ -1,0 +1,16 @@
+"label_hunt;
+ajustar_zoom(2);
+target_on();
+andar(""check"");
+andar(""x"");
+andar(""estrela"");
+andar(""esclamacao"");
+andar(""interrogacao"");
+andar(""check"");
+check_supply_vai(check_supply(""strong_mana_potion""),250,voltar);
+check_supply_vai(check_supply(""great_health_potion""),180,voltar);
+goto(hunt);
+label_voltar;
+target_off();
+andar(""bandeira"");
+stop_script();"

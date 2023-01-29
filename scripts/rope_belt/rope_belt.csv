@@ -1,0 +1,12 @@
+"ajustar_zoom(0);
+target_on();
+andar(""check"");
+andar(""interrogacao"");
+press_tecla(""w"",3);
+andar(""esclamacao"");
+press_tecla(""s"",1);
+andar(""estrela"");
+andar(""x"");
+press_tecla(""s"",3);
+andar(""cruz"");
+press_tecla(""s"",3);"
