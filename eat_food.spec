@@ -4,7 +4,7 @@
 block_cipher = None
 
 
-a = Analysis(['eat_food.py'],
+a = Analysis(['bot\\eat_food.py'],
              pathex=[],
              binaries=[],
              datas=[],

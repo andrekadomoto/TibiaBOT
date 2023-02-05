@@ -46,7 +46,7 @@
   ('pyi_rth__tkinter',
    'C:\\Users\\andre\\TibiaBOT\\venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth__tkinter.py',
    'PYSOURCE'),
-  ('auto_ring', 'C:\\Users\\andre\\TibiaBOT\\auto_ring.py', 'PYSOURCE')],
+  ('auto_ring', 'C:\\Users\\andre\\TibiaBOT\\bot\\auto_ring.py', 'PYSOURCE')],
  True,
  False,
  False,

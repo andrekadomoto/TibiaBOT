@@ -46,7 +46,7 @@
   ('pyi_rth__tkinter',
    'C:\\Users\\andre\\TibiaBOT\\venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth__tkinter.py',
    'PYSOURCE'),
-  ('cura_mana', 'C:\\Users\\andre\\TibiaBOT\\cura_mana.py', 'PYSOURCE')],
+  ('cura_mana', 'C:\\Users\\andre\\TibiaBOT\\bot\\cura_mana.py', 'PYSOURCE')],
  True,
  False,
  False,

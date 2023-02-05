@@ -47,7 +47,7 @@
    'C:\\Users\\andre\\TibiaBOT\\venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth__tkinter.py',
    'PYSOURCE'),
   ('script_reader',
-   'C:\\Users\\andre\\TibiaBOT\\script_reader.py',
+   'C:\\Users\\andre\\TibiaBOT\\bot\\script_reader.py',
    'PYSOURCE')],
  True,
  False,

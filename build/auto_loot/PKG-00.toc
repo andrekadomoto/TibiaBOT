@@ -46,7 +46,7 @@
   ('pyi_rth_win32api',
    'C:\\Users\\andre\\TibiaBOT\\venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_win32api.py',
    'PYSOURCE'),
-  ('auto_loot', 'C:\\Users\\andre\\TibiaBOT\\auto_loot.py', 'PYSOURCE')],
+  ('auto_loot', 'C:\\Users\\andre\\TibiaBOT\\bot\\auto_loot.py', 'PYSOURCE')],
  True,
  False,
  False,

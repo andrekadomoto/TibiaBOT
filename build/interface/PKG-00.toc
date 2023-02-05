@@ -46,7 +46,7 @@
   ('pyi_rth__tkinter',
    'C:\\Users\\andre\\TibiaBOT\\venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth__tkinter.py',
    'PYSOURCE'),
-  ('interface', 'C:\\Users\\andre\\TibiaBOT\\interface.py', 'PYSOURCE')],
+  ('interface', 'C:\\Users\\andre\\TibiaBOT\\bot\\interface.py', 'PYSOURCE')],
  True,
  False,
  False,

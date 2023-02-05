@@ -4,7 +4,7 @@
 block_cipher = None
 
 
-a = Analysis(['auto_utamo.py'],
+a = Analysis(['bot\\auto_utamo.py'],
              pathex=[],
              binaries=[],
              datas=[],

@@ -47,7 +47,7 @@
    'C:\\Users\\andre\\TibiaBOT\\venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth__tkinter.py',
    'PYSOURCE'),
   ('player_on_screen',
-   'C:\\Users\\andre\\TibiaBOT\\player_on_screen.py',
+   'C:\\Users\\andre\\TibiaBOT\\bot\\player_on_screen.py',
    'PYSOURCE')],
  True,
  False,

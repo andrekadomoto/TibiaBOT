@@ -4,7 +4,7 @@
 block_cipher = None
 
 
-a = Analysis(['script_reader.py'],
+a = Analysis(['bot\\script_reader.py'],
              pathex=[],
              binaries=[],
              datas=[],

@@ -4,7 +4,7 @@
 block_cipher = None
 
 
-a = Analysis(['private_mensage.py'],
+a = Analysis(['bot\\private_mensage.py'],
              pathex=[],
              binaries=[],
              datas=[],

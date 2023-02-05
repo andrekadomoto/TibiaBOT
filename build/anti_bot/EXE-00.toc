@@ -52,11 +52,11 @@
   ('pyi_rth__tkinter',
    'C:\\Users\\andre\\TibiaBOT\\venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth__tkinter.py',
    'PYSOURCE'),
-  ('anti_bot', 'C:\\Users\\andre\\TibiaBOT\\anti_bot.py', 'PYSOURCE')],
+  ('anti_bot', 'C:\\Users\\andre\\TibiaBOT\\bot\\anti_bot.py', 'PYSOURCE')],
  [],
  False,
  False,
- 1675024535,
+ 1675533294,
  [('run.exe',
    'c:\\users\\andre\\tibiabot\\venv\\lib\\site-packages\\PyInstaller\\bootloader\\Windows-64bit\\run.exe',
    'EXECUTABLE')])

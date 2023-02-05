@@ -46,11 +46,11 @@
   ('pyi_rth_inspect',
    'C:\\Users\\andre\\TibiaBOT\\venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_inspect.py',
    'PYSOURCE'),
-  ('cavebot', 'C:\\Users\\andre\\TibiaBOT\\cavebot.py', 'PYSOURCE')],
+  ('cavebot', 'C:\\Users\\andre\\TibiaBOT\\bot\\cavebot.py', 'PYSOURCE')],
  [],
  False,
  False,
- 1675024700,
+ 1675533411,
  [('run.exe',
    'c:\\users\\andre\\tibiabot\\venv\\lib\\site-packages\\PyInstaller\\bootloader\\Windows-64bit\\run.exe',
    'EXECUTABLE')])

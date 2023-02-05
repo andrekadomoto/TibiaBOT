@@ -46,7 +46,7 @@
   ('pyi_rth_win32api',
    'C:\\Users\\andre\\TibiaBOT\\venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_win32api.py',
    'PYSOURCE'),
-  ('auto_atack', 'C:\\Users\\andre\\TibiaBOT\\auto_atack.py', 'PYSOURCE')],
+  ('auto_atack', 'C:\\Users\\andre\\TibiaBOT\\bot\\auto_atack.py', 'PYSOURCE')],
  True,
  False,
  False,

@@ -46,7 +46,7 @@
   ('pyi_rth__tkinter',
    'C:\\Users\\andre\\TibiaBOT\\venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth__tkinter.py',
    'PYSOURCE'),
-  ('auto_utamo', 'C:\\Users\\andre\\TibiaBOT\\auto_utamo.py', 'PYSOURCE')],
+  ('auto_utamo', 'C:\\Users\\andre\\TibiaBOT\\bot\\auto_utamo.py', 'PYSOURCE')],
  True,
  False,
  False,

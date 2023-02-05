@@ -4,7 +4,7 @@
 block_cipher = None
 
 
-a = Analysis(['auto_atack.py'],
+a = Analysis(['bot\\auto_atack.py'],
              pathex=[],
              binaries=[],
              datas=[],

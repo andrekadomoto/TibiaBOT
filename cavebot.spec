@@ -4,7 +4,7 @@
 block_cipher = None
 
 
-a = Analysis(['cavebot.py'],
+a = Analysis(['bot\\cavebot.py'],
              pathex=[],
              binaries=[],
              datas=[],

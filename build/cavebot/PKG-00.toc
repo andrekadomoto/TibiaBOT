@@ -40,7 +40,7 @@
   ('pyi_rth_inspect',
    'C:\\Users\\andre\\TibiaBOT\\venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_inspect.py',
    'PYSOURCE'),
-  ('cavebot', 'C:\\Users\\andre\\TibiaBOT\\cavebot.py', 'PYSOURCE')],
+  ('cavebot', 'C:\\Users\\andre\\TibiaBOT\\bot\\cavebot.py', 'PYSOURCE')],
  True,
  False,
  False,

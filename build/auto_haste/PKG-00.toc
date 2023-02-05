@@ -46,7 +46,7 @@
   ('pyi_rth__tkinter',
    'C:\\Users\\andre\\TibiaBOT\\venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth__tkinter.py',
    'PYSOURCE'),
-  ('auto_haste', 'C:\\Users\\andre\\TibiaBOT\\auto_haste.py', 'PYSOURCE')],
+  ('auto_haste', 'C:\\Users\\andre\\TibiaBOT\\bot\\auto_haste.py', 'PYSOURCE')],
  True,
  False,
  False,

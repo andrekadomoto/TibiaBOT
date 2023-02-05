@@ -4,7 +4,7 @@
 block_cipher = None
 
 
-a = Analysis(['player_on_screen.py'],
+a = Analysis(['bot\\player_on_screen.py'],
              pathex=[],
              binaries=[],
              datas=[],

@@ -46,7 +46,7 @@
   ('pyi_rth__tkinter',
    'C:\\Users\\andre\\TibiaBOT\\venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth__tkinter.py',
    'PYSOURCE'),
-  ('follow_on', 'C:\\Users\\andre\\TibiaBOT\\follow_on.py', 'PYSOURCE')],
+  ('follow_on', 'C:\\Users\\andre\\TibiaBOT\\bot\\follow_on.py', 'PYSOURCE')],
  True,
  False,
  False,
