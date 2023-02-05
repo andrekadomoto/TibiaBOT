@@ -30,7 +30,7 @@ else:
 desktop = winshell.desktop()
 #desktop = r"path to where you wanna put your .lnk file"
 path = os.path.join(desktop, 'Tibia_BOT.lnk')
-target = rf"{os.getcwd()}\run_script.bat" 
+target = rf"{os.getcwd()}\4. run_script.bat" 
 icon = rf"{os.getcwd()}\imagens\icones\{icone}.ico"
 wDir = os.getcwd()
 shell = win32com.client.Dispatch("WScript.Shell")
