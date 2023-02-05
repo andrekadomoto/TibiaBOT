@@ -4,7 +4,7 @@
 block_cipher = None
 
 
-a = Analysis(['interface.py'],
+a = Analysis(['bot\\interface.py'],
              pathex=[],
              binaries=[],
              datas=[],

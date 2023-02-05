@@ -46,7 +46,7 @@
   ('pyi_rth__tkinter',
    'C:\\Users\\andre\\TibiaBOT\\venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth__tkinter.py',
    'PYSOURCE'),
-  ('anti_bot', 'C:\\Users\\andre\\TibiaBOT\\anti_bot.py', 'PYSOURCE')],
+  ('anti_bot', 'C:\\Users\\andre\\TibiaBOT\\bot\\anti_bot.py', 'PYSOURCE')],
  True,
  False,
  False,

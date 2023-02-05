@@ -1,0 +1,296 @@
+# Query: imagens
+# Including: .py
+# Excluding: venv,dist
+# ContextLines: 1
+
+83 resultados - 4 arquivos
+
+criar_atalho.py:
+  33  target = rf"{os.getcwd()}\run_script.bat" 
+  34: icon = rf"{os.getcwd()}\imagens\icones\{icone}.ico"
+  35  wDir = os.getcwd()
+
+main.py:
+    54  def check_img(imagem): # def para checar se determinada imagem existe
+    55:     start = pyautogui.locateCenterOnScreen(f'./imagens/game_screen/{imagem}.png',confidence=0.9)#If the file is not a png file it will not work
+    56      return start
+
+    61      if b == 0:
+    62:         start = pyautogui.locateCenterOnScreen(f'./imagens/game_screen/{imagem}.png',confidence=0.9)#If the file is not a png file it will not work
+    63      else:
+
+    68  def image_click(imagem): # clica em imagem de acordo com o nome
+    69:     start = pyautogui.locateCenterOnScreen(f'./imagens/game_screen/{imagem}.png',confidence=0.9)#If the file is not a png file it will not work
+    70      if start!=None :
+
+    78  def get_size(imagem): # retorna o tamanho de uma imagem
+    79:     imm = PIL.Image.open(f'./imagens/game_screen/{imagem}.png')
+    80      im=imm.size
+
+   180              x,y,w,h = get_statusbar()
+   181:             strstatus = './imagens/game_screen/' + status + '.png'
+   182              rstatus = pyautogui.locateOnScreen(strstatus,confidence=0.9,region=(int(x),int(y),int(w),int(h)))
+
+   227  
+   228:     l = pyautogui.locateOnScreen(r'./imagens/game_screen/list_fim.png',confidence=0.9, region=(int(x_mod),int(y), int(w), int(h)))
+   229  
+
+   326  def cast_spell(magia,hotkey):
+   327:     caminho_magia = './imagens/magias/' + magia + '.png'
+   328      j = pyautogui.locateCenterOnScreen(caminho_magia)
+
+   336      # 1: ainda está andando
+   337:     o = pyautogui.locateOnScreen(r'./imagens/game_screen/minimap.png')
+   338      xc = o.left-13-106
+
+   344  def get_andar():
+   345:     o = pyautogui.locateOnScreen(r'./imagens/game_screen/minimap.png')
+   346      while o==None:
+   347:         o = pyautogui.locateOnScreen('./imagens/game_screen/minimap.png')
+   348      xc = o.left-13-106+108
+
+   351      hc = 109+8
+   352:     p = pyautogui.locateOnScreen(r'./imagens/game_screen/seta_mapa.png', region=(xc, yc, wc, hc), confidence=0.8)
+   353      while p==None:
+   354:         p=pyautogui.locateOnScreen(r'./imagens/game_screen/seta_mapa.png',region=(xc,yc,wc,hc), confidence=0.8)
+   355      andar = ((((p.top-74)/4)-7)*-1)-0.75
+
+   382      lst=['0','1','2','3','4','5','6','7','8','9']
+   383:     s = pyautogui.locateOnScreen(r'./imagens/game_screen/pvp.png')
+   384      var1='0'
+
+   394              h=10
+   395:             u = pyautogui.locateOnScreen(f'./imagens/numeros/ammo/{j}.png',region=(x,y,w,h),confidence=0.89)
+   396              if u != None:
+
+   422              y_f=0
+   423:             q=pyautogui.locateCenterOnScreen(f'./imagens/itens/{supply}.png',region=(0,96,70,430),confidence=0.9)
+   424              #r = pyautogui.screenshot(region=(q.x, q.y, 31, 31))
+
+   437              y_f=97+(linha-1)*36
+   438:             u = pyautogui.locateOnScreen(f'./imagens/numeros/supply/{j}.png', region=(x_f+31-6*i,y_f+31-8,6,8), confidence=0.85)
+   439              #u = pyautogui.screenshot(region=(x_f+31-6*i,y_f+31-8,6,8))
+
+   466  
+   467:     wp = './imagens/waypoints/' + waypoint + '.png'
+   468      posicao = 1
+
+   494              pyautogui.click(l) #clica no wp
+   495:             no_way = pyautogui.locateOnScreen('./imagens/game_screen/no_way.png',confidence=0.8) #verifica se a mensagem de There is no way aparece na tela
+   496              if no_way != None: #caso encontre o No Way
+
+   549  
+   550:     l = pyautogui.locateOnScreen(r'./imagens/game_screen/list_fim.png',confidence=0.9, region=(int(x_mod),int(y), int(w), int(h)))
+   551  
+
+   591      while janela_sell != None:
+   592:         sell_btn = pyautogui.locateCenterOnScreen('./imagens/game_screen/sell_focus_off.png')
+   593          pyautogui.click(sell_btn)
+
+   610                  pyautogui.moveTo(544, 315)
+   611:                 seta_direita = pyautogui.locateOnScreen(r'./imagens/game_screen/npc_trade_seta_direita.png',region=(int(x_2),int(y_2),int(w_2),int(h_2)))
+   612                  pyautogui.click(seta_direita.left-7,seta_direita.top+3,clicks=3)
+
+   614                  pyautogui.moveTo(544, 315)
+   615:                 ok_btn = pyautogui.locateCenterOnScreen(r'./imagens/game_screen/npc_trade_ok.png',region=(int(x_2),int(y_2),int(w_2),int(h_2)))
+   616                  pyautogui.click(ok_btn,clicks=3)
+
+   633      log_cavebot(f'ajustando zoom para: {nivel}')
+   634:     p=pyautogui.locateCenterOnScreen(r'./imagens/game_screen/zoom_in.png')
+   635      pyautogui.click(p,clicks=10)
+   636:     p = pyautogui.locateCenterOnScreen(r'./imagens/game_screen/zoom_out.png')
+   637      pyautogui.click(p, clicks=nivel)
+
+   681  
+   682:     busca = pyautogui.locateOnScreen(r'./imagens/game_screen/type_search.png', confidence=0.9)
+   683      pyautogui.click(busca)
+
+   690  
+   691:     item_txt = pyautogui.locateOnScreen(f'./imagens/game_screen/{item}.png', confidence=0.8)
+   692      pyautogui.click(item_txt)
+   693  
+   694:     quantidade = pyautogui.locateOnScreen(r'./imagens/game_screen/compra_selecionada.png', confidence=0.9)
+   695      pyautogui.click(quantidade)
+
+   701      sleep(1)
+   702:     ok_btn = pyautogui.locateOnScreen(r'./imagens/game_screen/npc_trade_ok.png', confidence=0.9)
+   703      pyautogui.click(ok_btn,button='left',clicks=3)
+
+   720  def chat_on():
+   721:     chat_off = pyautogui.locateOnScreen(r'./imagens/game_screen/chat_off.png')
+   722      while chat_off != None:
+   723          pyautogui.click(chat_off)
+   724:         chat_off = pyautogui.locateOnScreen(r'./imagens/game_screen/chat_off.png')
+   725      sleep(0.2)
+
+   729  def chat_off():
+   730:     chat_on = pyautogui.locateOnScreen(r'./imagens/game_screen/chat_on.png')
+   731      while chat_on != None:
+   732          pyautogui.click(chat_on)
+   733:         chat_on = pyautogui.locateOnScreen(r'./imagens/game_screen/chat_on.png')
+   734      sleep(0.2)
+
+   737  def chat_npc_active():
+   738:     chat_npc = pyautogui.locateOnScreen(r'./imagens/game_screen/chat_npc_off.png')
+   739      while chat_npc != None:
+   740          pyautogui.click(chat_npc)
+   741:         chat_npc = pyautogui.locateOnScreen(r'./imagens/game_screen/chat_npc_off.png')
+   742      sleep(0.2)
+
+   745  def verifica_chat(desejo):
+   746:     c=pyautogui.locateOnScreen(r'./imagens/game_screen/chat_on.png')
+   747      if c==None:
+   748:         c=pyautogui.locateOnScreen(r'./imagens/game_screen/chat_off.png')
+   749          estado='off'
+
+   752      if desejo!=estado:
+   753:         p=pyautogui.locateCenterOnScreen(r'./imagens/game_screen/chat.png')
+   754          pyautogui.click(p)
+
+   763  def verifica_aba_npc():
+   764:     c=pyautogui.locateCenterOnScreen(r'./imagens/game_screen/aba_npc_off.png')
+   765      if c==None:
+   766:         c=pyautogui.locateOnScreen(r'./imagens/game_screen/aba_npc_on.png')
+   767          if c==None:
+   768:             d=pyautogui.locateCenterOnScreen(r'./imagens/game_screen/pastas.png')
+   769              pyautogui.click(d)
+   770              sleep(0.1)
+   771:             e=pyautogui.locateCenterOnScreen(r'./imagens/game_screen/aba_npc.png')
+   772              pyautogui.click(e)
+   773              sleep(0.1)
+   774:             f=pyautogui.locateCenterOnScreen(r'./imagens/game_screen/aba_open.png')
+   775              pyautogui.click(f)
+
+   780          try:
+   781:             p=pyautogui.locateCenterOnScreen(r'./imagens/game_screen/ring_off.png')
+   782              if p!=None:
+
+   787  def get_game_window():
+   788:     x=pyautogui.locateOnScreen(r'./imagens/game_screen/abas_hotkey_cima.png')
+   789      for i in range(1,430):
+
+   802  
+   803:     y=pyautogui.locateOnScreen(r'./imagens/game_screen/xp_icon.png')
+   804      yc=y.top+37
+
+   832          try:
+   833:             p=pyautogui.locateOnScreen(r'./imagens/game_screen/battlelist_ini_player.png')
+   834              size=pyautogui.size()
+   835:             f=pyautogui.locateOnScreen(r'./imagens/game_screen/list_fim_2.png',region=(p.left,p.top,size.width-p.left,size.height-p.top),confidence=0.6)
+   836              ptr=pyautogui.screenshot(region=(p.left,p.top,size.width-p.left,f.top-f.height-p.top))
+
+   853          try:
+   854:             f=pyautogui.locateOnScreen(r'./imagens/game_screen/anti_bot.png')
+   855              if f==None:
+
+   862          try:
+   863:             f=pyautogui.locateCenterOnScreen(r'./imagens/game_screen/follow_off.png')
+   864              if f!= None:
+
+   873          try:
+   874:             f=pyautogui.locateCenterOnScreen(r'./imagens/game_screen/follow_on.png')
+   875              if f!= None:
+
+   891      while t==0:
+   892:         dp_spot = pyautogui.locateCenterOnScreen(r'./imagens/game_screen/dp_spot.png', confidence=0.7)
+   893          pyautogui.moveTo(dp_spot)
+
+   909      #clica no box do dp
+   910:     locker=pyautogui.locateCenterOnScreen(r'./imagens/game_screen/locker.png',confidence=0.8)
+   911      while locker==None:
+   912:         locker = pyautogui.locateCenterOnScreen(r'./imagens/game_screen/locker.png',confidence=0.8)
+   913          if locker != None:
+
+   915          else:
+   916:             k = pyautogui.locateCenterOnScreen(r'./imagens/game_screen/dp_box.png', region=(x, y, w, h), confidence=0.9)
+   917              pyautogui.moveTo(k)
+
+   920      #fecha bp aberta
+   921:     backpack_open=pyautogui.locateOnScreen(r'./imagens/game_screen/backpack.png',confidence=0.8)
+   922      while backpack_open != None:
+   923:         backpack_open=pyautogui.locateOnScreen(r'./imagens/game_screen/backpack.png',confidence=0.8)
+   924          if backpack_open == None:
+
+   927          else:
+   928:             fechar = pyautogui.locateCenterOnScreen(r'./imagens/game_screen/fechar.png',region=(backpack_open.left, backpack_open.top, 170, 15),confidence=0.8)
+   929              pyautogui.moveTo(fechar)
+
+   935      #reabre janela da bp
+   936:     backpack_open = pyautogui.locateCenterOnScreen(r'./imagens/game_screen/backpack.png')
+   937      while backpack_open == None:
+   938:         backpack_open = pyautogui.locateCenterOnScreen(r'./imagens/game_screen/backpack.png')
+   939          if backpack_open != None:
+
+   942          else:
+   943:             storage = pyautogui.locateOnScreen(r'./imagens/game_screen/storage_inbox.png')
+   944              pyautogui.moveTo(storage.left + 18, storage.top + 32)
+
+   949      #encontra o fim da BP
+   950:     backpack_open_2 = pyautogui.locateOnScreen(r'./imagens/game_screen/backpack.png')
+   951:     fim_bp=pyautogui.locateOnScreen(r'./imagens/game_screen/list_fim.png',region=(backpack_open_2.left-20+158,backpack_open_2.top,20,400),confidence=0.8)
+   952      pyautogui.moveTo(fim_bp.left-30,fim_bp.top+14)
+
+   955      #mapeia variaveis para stockar
+   956:     backpack_open_2 = pyautogui.locateOnScreen(r'./imagens/game_screen/backpack.png')
+   957:     fim_bp = pyautogui.locateOnScreen(r'./imagens/game_screen/list_fim.png',region=(backpack_open_2.left - 20 + 158, backpack_open_2.top, 20, 400),confidence=0.8)
+   958:     item_valuables = os.listdir('./imagens/valuables')
+   959:     backpacks = os.listdir('./imagens/containers')
+   960  
+
+   965          for l in item_valuables:
+   966:             item=pyautogui.locateCenterOnScreen(f'./imagens/valuables/'+l,region=(-10+backpack_open_2.left,backpack_open_2.top,fim_bp.left- backpack_open_2.left+10,fim_bp.top- backpack_open_2.top+10),confidence=0.8)
+   967              if item != None:
+   968:                 stash=pyautogui.locateCenterOnScreen(r'./imagens/game_screen/stash.png',confidence=0.8)
+   969                  pyautogui.moveTo(item)
+
+   980          for i in backpacks:
+   981:             bp=pyautogui.locateCenterOnScreen(f'./imagens/containers/'+i,region=(-10+backpack_open_2.left,backpack_open_2.top,fim_bp.left- backpack_open_2.left+10,fim_bp.top- backpack_open_2.top+10),confidence=0.8)
+   982              if bp != None:
+
+   989                      for l in item_valuables:
+   990:                         item = pyautogui.locateCenterOnScreen(f'./imagens/valuables/' + l, region=(
+   991                          -10 + backpack_open_2.left, backpack_open_2.top, fim_bp.left - backpack_open_2.left + 10,
+
+   993                          if item != None:
+   994:                             stash = pyautogui.locateCenterOnScreen(r'./imagens/game_screen/stash.png', confidence=0.8)
+   995                              pyautogui.moveTo(item)
+
+  1006      # fecha bp aberta
+  1007:     backpack_open = pyautogui.locateOnScreen(r'./imagens/game_screen/backpack.png',confidence=0.8)
+  1008      while backpack_open != None:
+  1009:         backpack_open = pyautogui.locateOnScreen(r'./imagens/game_screen/backpack.png',confidence=0.8)
+  1010          if backpack_open==None:
+
+  1013          else:
+  1014:             fechar = pyautogui.locateCenterOnScreen(r'./imagens/game_screen/fechar.png',region=(backpack_open.left, backpack_open.top, 170, 15),confidence=0.8)
+  1015              pyautogui.moveTo(fechar)
+
+  1021      # reabre janela da bp
+  1022:     backpack_open = pyautogui.locateCenterOnScreen(r'./imagens/game_screen/backpack.png',confidence=0.8)
+  1023      while backpack_open == None:
+  1024:         backpack_open = pyautogui.locateCenterOnScreen(r'./imagens/game_screen/backpack.png',confidence=0.8)
+  1025          if backpack_open!=None:
+
+  1028          else:
+  1029:             storage = pyautogui.locateOnScreen(r'./imagens/game_screen/storage_inbox.png')
+  1030              pyautogui.moveTo(storage.left + 18, storage.top + 32)
+
+suporte.py:
+  6          w = 11
+  7:         image = cv2.imread('./imagens/game_screen/barra_mana_100.png')
+  8          barra_vida = image[x:w, y:h]
+  9:         cv2.imwrite('./imagens/game_screen/barra_mana_' + str(h) + '.png',barra_vida)
+  10          print(h)
+
+bot\auto_atack.py:
+  32                      while (True):
+  33:                         j1 = pyautogui.locateOnScreen('./imagens/magias/'+spell_um_nm+'.png')
+  34                          if j1 != None:
+
+  38                          while (True):
+  39:                             j2 = pyautogui.locateOnScreen('./imagens/magias/'+spell_dois_nm+'.png')
+  40                              if j2 != None:
+
+  44                              while (True):
+  45:                                 j3 = pyautogui.locateOnScreen('./imagens/magias/'+spell_tres_nm+'.png')
+  46                                  if j3 != None:

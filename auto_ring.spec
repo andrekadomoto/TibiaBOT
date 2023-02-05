@@ -4,7 +4,7 @@
 block_cipher = None
 
 
-a = Analysis(['auto_ring.py'],
+a = Analysis(['bot\\auto_ring.py'],
              pathex=[],
              binaries=[],
              datas=[],

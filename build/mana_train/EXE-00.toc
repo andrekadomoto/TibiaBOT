@@ -52,11 +52,11 @@
   ('pyi_rth__tkinter',
    'C:\\Users\\andre\\TibiaBOT\\venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth__tkinter.py',
    'PYSOURCE'),
-  ('mana_train', 'C:\\Users\\andre\\TibiaBOT\\mana_train.py', 'PYSOURCE')],
+  ('mana_train', 'C:\\Users\\andre\\TibiaBOT\\bot\\mana_train.py', 'PYSOURCE')],
  [],
  False,
  False,
- 1675024902,
+ 1675533518,
  [('run.exe',
    'c:\\users\\andre\\tibiabot\\venv\\lib\\site-packages\\PyInstaller\\bootloader\\Windows-64bit\\run.exe',
    'EXECUTABLE')])

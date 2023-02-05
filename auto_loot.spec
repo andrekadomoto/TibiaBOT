@@ -4,7 +4,7 @@
 block_cipher = None
 
 
-a = Analysis(['auto_loot.py'],
+a = Analysis(['bot\\auto_loot.py'],
              pathex=[],
              binaries=[],
              datas=[],

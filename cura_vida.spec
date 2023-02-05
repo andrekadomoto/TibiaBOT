@@ -4,7 +4,7 @@
 block_cipher = None
 
 
-a = Analysis(['cura_vida.py'],
+a = Analysis(['bot\\cura_vida.py'],
              pathex=[],
              binaries=[],
              datas=[],

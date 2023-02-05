@@ -4,7 +4,7 @@
 block_cipher = None
 
 
-a = Analysis(['auto_haste.py'],
+a = Analysis(['bot\\auto_haste.py'],
              pathex=[],
              binaries=[],
              datas=[],

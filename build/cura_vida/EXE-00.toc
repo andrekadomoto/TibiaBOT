@@ -52,11 +52,11 @@
   ('pyi_rth__tkinter',
    'C:\\Users\\andre\\TibiaBOT\\venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth__tkinter.py',
    'PYSOURCE'),
-  ('cura_vida', 'C:\\Users\\andre\\TibiaBOT\\cura_vida.py', 'PYSOURCE')],
+  ('cura_vida', 'C:\\Users\\andre\\TibiaBOT\\bot\\cura_vida.py', 'PYSOURCE')],
  [],
  False,
  False,
- 1675024762,
+ 1675533446,
  [('run.exe',
    'c:\\users\\andre\\tibiabot\\venv\\lib\\site-packages\\PyInstaller\\bootloader\\Windows-64bit\\run.exe',
    'EXECUTABLE')])

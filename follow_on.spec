@@ -4,7 +4,7 @@
 block_cipher = None
 
 
-a = Analysis(['follow_on.py'],
+a = Analysis(['bot\\follow_on.py'],
              pathex=[],
              binaries=[],
              datas=[],

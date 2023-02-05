@@ -47,7 +47,7 @@
    'C:\\Users\\andre\\TibiaBOT\\venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth__tkinter.py',
    'PYSOURCE'),
   ('private_mensage',
-   'C:\\Users\\andre\\TibiaBOT\\private_mensage.py',
+   'C:\\Users\\andre\\TibiaBOT\\bot\\private_mensage.py',
    'PYSOURCE')],
  True,
  False,

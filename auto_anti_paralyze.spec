@@ -4,7 +4,7 @@
 block_cipher = None
 
 
-a = Analysis(['auto_anti_paralyze.py'],
+a = Analysis(['bot\\auto_anti_paralyze.py'],
              pathex=[],
              binaries=[],
              datas=[],

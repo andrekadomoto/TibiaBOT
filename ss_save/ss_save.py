@@ -46,7 +46,7 @@ def ss(cod):
 
         if result == 1:
             #PrintWindow Succeeded
-            im.save("ss_save/screenshot_"+cod+".png")
+            im.save("./ss_save/screenshot_"+cod+".png")
 
         time.sleep(0.005)
 
