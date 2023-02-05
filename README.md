@@ -7,9 +7,9 @@ André Kadomoto
 ##################################################################################
 
 O que o BOT possui??
-O BOT ainda está em desenvolvimento e possui apenas funções direcionadas à minha acc
-O BOT possui reconhecimento de algumas magias de todas as vocações, mas AINDA não possui todas
-Estamos em desenvolvimento, mas, caso queira ja ir testando e apontar melhoriar, é só nos avisar
+O BOT ainda está em desenvolvimento e possui apenas funções direcionadas à minha acc.
+O BOT possui reconhecimento de algumas magias de todas as vocações, mas AINDA não possui todas.
+Estamos em desenvolvimento, mas, caso queira ja ir testando e apontar melhoriar, é só nos avisar.
 :)
 
 
