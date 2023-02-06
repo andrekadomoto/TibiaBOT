@@ -9,13 +9,11 @@ import csv
 import json
 import os
 from pathlib import Path
-import sys
-sys.path.insert(0, './TibiaBOT/bot')
 from main import *
 
 def food():
     if (var1.get() == 1):
-        os.spawnl(os.P_DETACH, r"dist\eat_food\eat_food.exe",'x')
+        os.spawnl(os.P_DETACH, r"./dist/eat_food/eat_food.exe",'x')
     else:
         os.system("taskkill /im eat_food.exe /F")
 
@@ -46,7 +44,7 @@ def anti_bot():
 
 def haste():
     if (var2.get() == 1):
-        os.spawnl(os.P_DETACH, r"dist/auto_haste/auto_haste.exe", 'x')
+        os.spawnl(os.P_DETACH, r"./dist/auto_haste/auto_haste.exe", 'x')
     else:
         os.system("taskkill /im auto_haste.exe /F")
 

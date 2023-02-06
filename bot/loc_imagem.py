@@ -1,6 +1,4 @@
 import cv2
-import sys
-sys.path.insert(0, './ss_save')
 from ss_save import *
 
 

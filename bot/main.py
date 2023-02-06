@@ -1,15 +1,15 @@
+import sys
 from audioplayer import AudioPlayer
 import PIL.Image
 import pyautogui
 import json
+import pywintypes
 import win32gui
 import win32con
 import win32api
 from time import sleep
 import os
 import psutil as ps
-import sys
-sys.path.insert(0, './TibiaBOT/bot')
 from loc_imagem import *
 
 def press_key_bk(key): # pressiona hotkey no background
